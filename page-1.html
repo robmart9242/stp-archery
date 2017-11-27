@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
- <!-- Robert Martinez 11-1-17 -->
+ <!-- Robert Martinez 11-26-17 -->
 <head>
   <meta charset="utf-8" />
   <title>STP Archery - Lessons</title>
@@ -11,20 +11,23 @@
 </head>
 
 <body>  
-  <article class="content-wrapper"><!-- content wrapper that encompases all my code so I can center it on the page. -->
-    
+  <article class="content-wrapper"><!-- content wrapper that encompases all my code so I can center it on the page. --> 
     
     <header><!-- headline and main nav -->
-      <!-- header with an h1 -->
       
-      <h1><img src="images/logo.jpg" alt="Logo" style="width: 3em; height:3em;">Straight to the Point Archery</h1>
-      
+      <h1><img src="images/logo.jpg" alt="Logo" style="width: 3em; height:3em;">Straight to the Point Archery
+      </h1>
       <p></p>
       <hr>
        <p></p>
-      <form>
-          <input type="text" name="search&nbsp" placeholder="Search.."  >
+      
+      <div class="search">
+        <form action="http://www.example.com">
+            <input type="text" name="search" placeholder="Enter keyword here..."/>
+            <input type="submit" value="Submit"/>
         </form>
+      </div>
+      
       <nav class="main-nav">
         <ul style="display: none:">
           <li><a href="index.html">Home</a></li>       
@@ -32,8 +35,7 @@
           <li><a href="page-2.html">About</a></li>
           <li><a href="page-3.html">Products</a></li>
           <li><a href="page-4.html">Resources</a></li>
-        </ul>
-        
+        </ul>  
       </nav>
     </header>
 
@@ -44,12 +46,19 @@
       <img src="images/lesson1.jpg" alt="lesson 1" style="width: 10em; height:10em;">
       <img src="images/lesson2.jpg" alt="lesson 2" style="width: 10em; height:10em;">
       <h4>Classes Offered:</h4>
-      <table style="width:75%">
+      <table style="width:70%">
+        <col style="width:10%">
+        <col style="width:20%">
+        <col style="width:10%">
+        <col style="width:5%">
+        <col style="width:5%">
+        <col style="width:10%">
+        <col style="width:10%">
         <tr>
           <th>Name</th>
           <th>Description</th>
           <th>Equipment Needed</th>
-          <th>Cost</th>
+          <th>Price</th>
           <th>Schedule</th>
           <th>Prerequisite</th>
           <th>Age Requirement</th>
@@ -83,7 +92,7 @@
         </tr>
       </table>
       <h4>Private Lessons Offered:</h4>
-      <table style="width:45%">
+      <table style="width:40%">
         <tr>
           <th>Type</th>
           <th>Description</th>
@@ -104,18 +113,19 @@
            <td>10 lessons, 1 hour each of expert guidance by a USA Archery-certified coach.</td>
           <td>$380.00</td>
         </tr>
-
-         </table>
+      </table>
+      <p><button>Register</button> for one of our classes or lessons today!</p>
+      <p></p>
     </section>
-          <p></p>
-      <hr>
-       <p></p>
+    
+    <p></p>
+    <hr>
+    <p></p>
     <!-- Footer with three images with links to those websites -->
     <footer>   
       <p> Social Media Links</p>
-      <a href="http://www.facebook.com" target="_blank"><img src="images/facebook.png" alt="facebook image"> | </a>
-      <a href="http://github.com" target="_blank"><img src="images/github.png" alt="github image"> | </a>
-      <a href="http://linkedin.com" target="_blank"><img src="images/linked-in.png" alt="linked-in image"> | </a>
+      <a href="http://www.facebook.com" target="_blank"><img src="images/facebook.png" alt="facebook image" style="width: 2em; height:2em;"> | </a>
+      <a href="http://linkedin.com" target="_blank"><img src="images/linked-in.png" alt="linked-in image" style="width: 2em; height:2em;"> | </a>
       <p></p>
       <a href="https://www.google.com/maps/place/Point+Ln+SW,+Lakewood,+WA+98499/@47.1657142,-122.5374901,17z/data=!4m8!1m2!2m1!1sPoint+Ln+Tacoma,+WA+98412!3m4!1s0x549100daa12b7867:0xb7be022b12e0a4da!8m2!3d47.1657141!4d-122.5353013" target="_blank">Find us on Map</a>
       <p></p>
