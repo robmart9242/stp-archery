@@ -1,0 +1,161 @@
+/*Steve's css styling*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 960px;
+  height: auto;
+  margin: auto;
+  background-color: 
+  border-style: solid;
+  border-color: black;
+  box-shadow: 10px 10px 5px #888888;
+  background-image: url(../images/brown-background.jpg);
+  background-repeat: none;
+  background-size: cover;
+  font-family: Nobile, sans-serif;
+  
+
+}
+    
+.content-wrapper {
+  background-color: #64AD64;
+}
+
+h1 {
+  font-size: 57px;
+  align-self: center;
+  text-shadow: 1px 1px 5px grey;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 16% auto;
+  background-color: rosybrown;
+  padding: 1em 1em;
+  
+}
+
+ul {
+  list-style-type:none;
+  display: grid;
+  grid-template-columns: 13% 14% 17% 18% 19% 19%;
+  font-size: 30px;
+  padding: .5em .5em 0 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a {
+  border-style: solid;
+  border-color: #64AD64;
+  text-decoration: none;
+  border-radius: 18px;
+  border-width: 1.5px;
+  padding: 2px 10px;
+  color: black;
+}
+
+li a:hover {
+  background-color: lightgreen;
+}
+
+h3 {
+  text-align: center;
+  color: ghostwhite;
+  padding: 5px;
+  margin: 15px;
+  text-decoration: underline;
+  font-size: 25px;
+  
+  
+  
+}
+
+.media {
+  text-align: center;
+  margin: 10px;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  justify-content: space-around;
+  justify-content: flex-end;
+  margin: 10px;
+}
+
+.pitch {
+  text-align: center;
+}
+
+p {
+  margin: 10px;
+  text-align: justify;
+  justify-content: center;
+  font-family: source sans pro, sans-serif;
+  
+}
+
+
+.upcoming-events {
+  text-align: center;
+ 
+}
+
+.button {
+  text-decoration: none;
+  color: ghostwhite;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  padding: 5px;
+  
+}
+
+.button:hover {
+  background-color: orange;
+}
+  
+.events-container {
+  padding-top: 20px
+}
+
+footer {
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 10px;
+}
+
+i { 
+  margin: 5px;
+  color: darkgray;
+}
+
+
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span_3_of_3 {
+		width: 100%; 
+	}
+	.span_2_of_3 {
+		width: 100%; 
+	}
+	.span_1_of_3 {
+		width: 100%;
+	}
+}
+
+/*Robert's CSS Styling*/
+.lessons-img{
+  width=10em; 
+  height:10em;
+}
+table {
+  width: 70%;
+}
