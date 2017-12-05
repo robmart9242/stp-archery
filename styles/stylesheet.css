@@ -5,45 +5,47 @@
 }
 
 body {
-  width: auto;
+  width: 1266px;
   height: auto;
-  margin: auto;
-  background-color: #64AD64;
+  margin: auto; 
   border-style: solid;
   border-color: black;
   box-shadow: 10px 10px 5px #888888;
   background-image: url(../images/brown-background.jpg);
-  background-repeat: none;
   background-size: cover;
   font-family: Nobile, sans-serif;
   
+  
 
 }
-    
+ 
 .content-wrapper {
   background-color: #64AD64;
 }
 
 h1 {
-  font-size: 57px;
-  align-self: center;
-  text-shadow: 1px 1px 5px grey;
+  font-size: 65px;
+  text-align: center;
+  text-shadow: 1px 1px 5px grey
 }
 
 header {
   display: grid;
-  grid-template-columns: 16% auto;
-  background-color: #bc9999;
+  grid-template-columns: 10% 80%;
+  background-color: white;
   padding: 1em 1em;
+  
   
 }
 
 ul {
-  list-style-type:none;
+  list-style-type: none;
   display: grid;
+  
+  /* Robert added extra columns to cover other pages */
   grid-template-columns: 13% 14% 17% 18% 19% 19%;
   font-size: 30px;
-  padding: .5em .5em 0 0;
+  padding: 10px;
   text-align: center;
   text-decoration: none;
 }
@@ -68,10 +70,7 @@ h3 {
   padding: 5px;
   margin: 15px;
   text-decoration: underline;
-  font-size: 25px;
-  
-  
-  
+  font-size: 25px;  
 }
 
 .media {
@@ -96,7 +95,6 @@ p {
   text-align: justify;
   justify-content: center;
   font-family: source sans pro, sans-serif;
-  
 }
 
 
@@ -112,29 +110,29 @@ p {
   border-width: 2px;
   border-radius: 10px;
   padding: 5px;
-  
 }
 
 .button:hover {
   background-color: orange;
 }
+
   
 .events-container {
   padding-top: 20px
 }
 
+/* robert changed the background color of footer to match header */
 footer {
-  background-color: #bc9999;
+  background-color: white;
   text-align: center;
   padding: 10px;
 }
 
+/* robert changed the color of icons */
 i { 
   margin: 5px;
   color: #7e7ee8;
 }
-
-
 
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
@@ -245,4 +243,47 @@ i {
 			transition: all .2s;
 		}
 	
+/*  steve's edits on 12/4/17*/
+
+/* following styles are for lessons page */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  background-color: lightgreen;
+  padding: 10px;
+  border: 1px black;
   
+}
+
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: lightgreen;
+  padding: 10px;
+  border: 1px black;
+  margin-bottom: 20px;
+}
+.grid-item {
+  background-color: whitesmoke;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 13px;
+  text-align: center;
+  
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span_3_of_3 {
+		width: 100%; 
+	}
+	.span_2_of_3 {
+		width: 100%; 
+	}
+	.span_1_of_3 {
+		width: 100%;
+	}
+}
