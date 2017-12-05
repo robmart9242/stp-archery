@@ -154,6 +154,9 @@ i {
   width=10em; 
   height:10em;
 }
+.education{
+  align-items: center;
+}
 		body {
 			font-family: "Lucida Sans Unicode", "Lucida Grande", "Segoe Ui";
 		}
@@ -250,8 +253,8 @@ i {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto;
-  background-color: lightgreen;
-  padding: 10px;
+  background-color: #c4c2c1;
+  padding: 1em 3em 1em 3em;
   border: 1px black;
   
 }
@@ -260,8 +263,8 @@ i {
 .grid-container2 {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: lightgreen;
-  padding: 10px;
+  background-color: #c4c2c1;
+  padding: 1em 3em 1em 3em;
   border: 1px black;
   margin-bottom: 20px;
 }
@@ -286,4 +289,24 @@ i {
 	.span_1_of_3 {
 		width: 100%;
 	}
+}
+/*.css for Instructor page*/
+.content-block{
+  height: 15rem;
+}
+.content-block img{
+  width: 10em;
+  float: left;
+}
+
+.content-block figcaption{
+  margin: 0 1em 0 18em;
+}
+
+.block2{
+  clear: both;
+}
+
+.block3{
+  clear: both;
 }
