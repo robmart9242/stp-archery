@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
- <!-- Robert Martinez 12-2-17 -->
+ <!-- Robert Martinez 12-6-17 -->
 <head>
   <meta charset="utf-8" />
 
   <title>STP Archery - Lessons</title>
+  <!--  css stylesheets for google fonts, font awesome and local css stylesheets-->
   <link href="https://fonts.googleapis.com/css?family=Nobile:700i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
 </head>
 
-<body>  
+<body> 
   
+  <!-- content wrapper that encompases all my code so I can center it on the page. -->  
   <article class="content-wrapper">
-    <!-- content wrapper that encompases all my code so I can center it on the page. --> 
     
+    <!-- headline -->
     <header>
-      <!-- headline and main nav -->
-
       <img src="images/logo.jpg" alt="Logo" class="logo">
       <h1>Straight to the Point Archery</h1>
     </header>
+    
+    <!-- main navigation for all pages -->
     <nav class="main-nav">
         <ul>
           <li><a href="index.html">Home</a></li>  
@@ -32,58 +34,59 @@
           <li><a href="resources.html">Resources</a></li>
         </ul> 
       </nav>
-
+    
+      <!--  This is a search bar added but it not currently operational. Just for future exploration -->
       <div class="search">
         <form action="http://www.example.com">
             <input type="text" name="search" placeholder="Enter keyword here..."/>
             <input type="submit" value="Submit"/>
         </form>
       </div>
-
+<!--This section class provides a container to style all of the images from one sytle command -->
     <section class="education">
       <h3> Image Gallery of our Classes</h3>
       <img class="lessons-img" src="images/class1.jpg" alt="Class 1">
       <img class="lessons-img" src="images/class2.jpg" alt="class 2">
       <img class="lessons-img" src="images/lesson1.jpg" alt="lesson 1">
       <img class="lessons-img" src="images/lesson2.jpg" alt="lesson 2">
-       <br>
-  <h3>Lessons</h3> 
-  <section class="grid-container">
-    <div class="grid-item">Name</div>
-    <div class="grid-item">Description</div>
-    <div class="grid-item">Equipment</div>  
-    <div class="grid-item">Price</div>
-    <div class="grid-item">Schedule</div>
-    <div class="grid-item">Prerequisites</div>  
-    <div class="grid-item">Age Requirement</div> 
+      <br>
+    </section>
     
-    <div class="grid-item">A101 Basic Archery</div>
-    <div class="grid-item">A101 is a basic archery course that focuses on beginning archery safety, skills, and drills. Participants learn about archery form, range rules and etiquette. Form training and fun games are introduced in this class.</div>
-    <div class="grid-item">Equipment will be provided with exception of safety kit.</div>  
-    <div class="grid-item">$120/month</div>
-    <div class="grid-item">MO,WE 4-5pm</div>
-    <div class="grid-item">Interest in learning about the sport of archery.</div>  
-    <div class="grid-item">Minimum age 8 years old. 7 with pre-evaluation</div>
-   
-    <div class="grid-item">A102 Intermediate Archery</div>
-    <div class="grid-item">A102 is an intermediate archery course that focuses on intermediate archery safety, form, and introduces new equipment styles of shooting Recurve and Compound bows. Fun games and form reinforcement techniques are emphasized in this class.</div>
-    <div class="grid-item">Equipment will be provided with exception of safety kit.</div>  
-    <div class="grid-item">$120/month</div>
-    <div class="grid-item">TU,TH 4-5pm</div>
-    <div class="grid-item">A101 or recommendation from private lesson instructor</div>  
-    <div class="grid-item">Minimum age 7 years old</div> 
+    <!-- This is the grid section for displaying the classes and lessons in a grid.-->
+    <h3>Lessons</h3> 
+    <section class="grid-container">
+      <div class="grid-item">Name</div>
+      <div class="grid-item">Description</div>
+      <div class="grid-item">Equipment</div>  
+      <div class="grid-item">Price</div>
+      <div class="grid-item">Schedule</div>
+      <div class="grid-item">Prerequisites</div>  
+      <div class="grid-item">Age Requirement</div> 
+      <div class="grid-item">A101 Basic Archery</div>
+      <div class="grid-item">A101 is a basic archery course that focuses on beginning archery safety, skills, and drills. Participants learn about archery form, range rules and etiquette. Form training and fun games are introduced in this class.</div>
+      <div class="grid-item">Equipment will be provided with exception of safety kit.</div>  
+      <div class="grid-item">$120/month</div>
+      <div class="grid-item">MO,WE 4-5pm</div>
+      <div class="grid-item">Interest in learning about the sport of archery.</div>  
+      <div class="grid-item">Minimum age 8 years old. 7 with pre-evaluation</div>
+      <div class="grid-item">A102 Intermediate Archery</div>
+      <div class="grid-item">A102 is an intermediate archery course that focuses on intermediate archery safety, form, and introduces new equipment styles of shooting Recurve and Compound bows. Fun games and form reinforcement techniques are emphasized in this class.</div>
+      <div class="grid-item">Equipment will be provided with exception of safety kit.</div>  
+      <div class="grid-item">$120/month</div>
+      <div class="grid-item">TU,TH 4-5pm</div>
+      <div class="grid-item">A101 or recommendation from private lesson instructor</div>  
+      <div class="grid-item">Minimum age 7 years old</div> 
+      <div class="grid-item">A103 Advanced Archery</div>
+      <div class="grid-item">his class focuses on a continued education towards tournament styles of shooting used by many archery tournament associations from around the world. Along with the tournament lesson, participants receive continued knowledge around their shooting form and advice on personal equipment selections.
+      Equipment will be provided with exception of safety kit</div>
+      <div class="grid-item">Equipment will be provided with exception of safety kit.</div>  
+      <div class="grid-item">$120/month</div>
+      <div class="grid-item">TU,TH 5-6pm</div>
+      <div class="grid-item">A101/A102 or equivalent</div>  
+      <div class="grid-item">Minimum age 7 years old</div> 
+    </section>
     
-    <div class="grid-item">A103 Advanced Archery</div>
-    <div class="grid-item">his class focuses on a continued education towards tournament styles of shooting used by many archery tournament associations from around the world. Along with the tournament lesson, participants receive continued knowledge around their shooting form and advice on personal equipment selections.
-    Equipment will be provided with exception of safety kit</div>
-    <div class="grid-item">Equipment will be provided with exception of safety kit.</div>  
-    <div class="grid-item">$120/month</div>
-    <div class="grid-item">TU,TH 5-6pm</div>
-    <div class="grid-item">A101/A102 or equivalent</div>  
-    <div class="grid-item">Minimum age 7 years old</div> 
-  </section>
-    
-      <h3>Private Lessons</h3>
+    <h3>Private Lessons</h3>
     <section class="grid-container2">
       <div class="grid-item">TYPE</div>
       <div class="grid-item">DESCRIPTION</div>
@@ -99,22 +102,19 @@
       
       <div class="grid-item">10 Lesson Package</div>
       <div class="grid-item">10, 1-hour lessons with certified USA Archery Coach</div>
-      <div class="grid-item">$380.00</div>  
-      
-       </section>
-      <br>
-      <p><button>Register Online</button></p>
-       <br>
+      <div class="grid-item">$380.00</div>    
     </section>
+<!-- Add space between grid container and Register button. -->
+    <br>
+    <p><button>Register Online</button></p>
+    <br>
     
     <p></p>
     <br>
     <p></p>
 
     <!-- Footer with three images with links to those websites -->
-
     <footer>   
-      
       <a href="http://wwww.facebook.com" target="_blank"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a>
       <a href="http://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
       <a href="https://www.google.com/maps/place/Point+Ln+SW,+Lakewood,+WA+98499/@47.1657142,-122.5374901,17z/data=!4m8!1m2!2m1!1sPoint+Ln+Tacoma,+WA+98412!3m4!1s0x549100daa12b7867:0xb7be022b12e0a4da!8m2!3d47.1657141!4d-122.5353013" target="_blank">Map<i class="fa fa-map-marker" aria-hidden="true"></i></a>
@@ -124,7 +124,6 @@
       <p>Next Step Archery admits students of any race, gender presentation, sexuality, religion, national origin or ethnic origin to all rights, privileges, programs and activities available to students at the school. We do not discriminate in administration of our educational policies, admission policies and other school administered programs. All students are welcome and valuable members of our community. </p>
     </footer>
 
-    
  </article>
 </body>
 </html>
