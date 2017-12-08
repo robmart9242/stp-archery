@@ -67,6 +67,7 @@ ul {
   color: whitesmoke;
 }
 
+
 /* end stylings for about page */
 
 li a {
@@ -98,10 +99,16 @@ h3 {
 }
 
 .images {
+  overflow: none;
+  text-align: center;
   display: grid;
   grid-template-columns: 33% 33% 33%;
-  justify-content: space-around;
-  justify-content: flex-end;
+  width: 100%;
+  padding-left: 55px;
+  
+  
+  
+
   margin: 10px;
 }
 
