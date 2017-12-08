@@ -1,6 +1,14 @@
+/*Steve's css styling*/
 * {
   margin: 0;
   padding: 0;
+}
+iframe{
+    border-width: 0px;
+}
+.logo{
+  width:100px;
+  height: 100px;
 }
 
 body {
@@ -13,11 +21,8 @@ body {
   background-image: url(../images/brown-background.jpg);
   background-size: cover;
   font-family: Nobile, sans-serif;
-  
-  
-
 }
-    
+ 
 .content-wrapper {
   background-color: #64AD64;
 }
@@ -33,19 +38,36 @@ header {
   grid-template-columns: 10% 80%;
   background-color: white;
   padding: 1em 1em;
-  
-  
 }
 
 ul {
   list-style-type: none;
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
+  
+  /* Robert added extra columns to cover other pages */
+  grid-template-columns: 13% 14% 17% 18% 19% 19%;
   font-size: 30px;
   padding: 10px;
   text-align: center;
   text-decoration: none;
 }
+
+/* steven styles for about page article element */
+.about {
+  padding: 10px;
+}
+
+.hours p, .headline {
+  text-align: center;
+  
+}
+
+.headline {
+  text-decoration: underline;
+  color: whitesmoke;
+}
+
+/* end stylings for about page */
 
 li a {
   border-style: solid;
@@ -67,10 +89,7 @@ h3 {
   padding: 5px;
   margin: 15px;
   text-decoration: underline;
-  font-size: 25px;
-  
-  
-  
+  font-size: 25px;  
 }
 
 .media {
@@ -88,13 +107,14 @@ h3 {
 
 .pitch {
   text-align: center;
+  margin-top: 20px;
 }
 
 p {
   margin: 10px;
   text-align: justify;
   justify-content: center;
-  font-family: source sans pro, sans-serif;
+  font-family: "source sans pro", sans-serif;
 }
 
 
@@ -110,37 +130,60 @@ p {
   border-width: 2px;
   border-radius: 10px;
   padding: 5px;
-  
 }
 
 .button:hover {
   background-color: orange;
 }
+
   
 .events-container {
   padding-top: 20px
 }
 
+/* robert changed the background color of footer to match header */
 footer {
-  background-color: whitesmoke;
+  background-color: white;
   text-align: center;
-  padding: 20px 10px 10px;
-  
+  padding: 10px;
 }
 
+/* robert changed the color of icons */
 i { 
   margin: 5px;
-  color: darkgray;
-  
+  color: #7e7ee8;
 }
+
+/* steve added copyright */
+
+.copyright {
+  text-align: center;
+}
+
+
+/*Robert's CSS Styling*/
+.lessons-img{
+  width=160px; 
+  height:160px;
+}
+
+/*steve centered the photo gallery */
+.education{
+  text-align: center;
+}
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Segoe Ui";
+}
+		
+/*  steve's edits on 12/4/17*/
 
 /* following styles are for lessons page */
 
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto;
-  background-color: lightgreen;
-  padding: 10px;
+  background-color: #c4c2c1;
+  padding: 1em 3em 1em 3em;
   border: 1px black;
   
 }
@@ -149,8 +192,8 @@ i {
 .grid-container2 {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: lightgreen;
-  padding: 10px;
+  background-color: #c4c2c1;
+  padding: 1em 3em 1em 3em;
   border: 1px black;
   margin-bottom: 20px;
 }
@@ -166,7 +209,7 @@ i {
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
 @media only screen and (max-width: 480px) {
-	.span_3_of_3 {
+	body {
 		width: 100%; 
 	}
 	.span_2_of_3 {
@@ -175,4 +218,24 @@ i {
 	.span_1_of_3 {
 		width: 100%;
 	}
+}
+/*.css for Instructor page*/
+.content-block{
+  height: 15rem;
+}
+.content-block img{
+  width: 10em;
+  float: left;
+}
+
+.content-block figcaption{
+  margin: 0 1em 0 18em;
+}
+
+.block2{
+  clear: both;
+}
+
+.block3{
+  clear: both;
 }
