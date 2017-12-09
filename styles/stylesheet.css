@@ -82,7 +82,7 @@ h3 {
 }
 
 .images {
-  overflow: none;
+  overflow:auto;
   text-align: center;
   display: grid;
   grid-template-columns: 33% 33% 33%;
@@ -101,6 +101,11 @@ p {
   text-align: center;
   justify-content: center;
   font-family: "source sans pro", sans-serif;
+}
+
+p.Register{
+  margin: 1.5em 0 1.5em 0;
+  text-align: center;
 }
 
 .about-padding {
@@ -134,7 +139,6 @@ p {
   padding-top: 20px
 }
 
-}
 
 /* Lauren's about page styling */
 p.about-padding {
@@ -165,24 +169,11 @@ i {
 }
 
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
-
-@media only screen and (max-width: 480px) {
-	.span_3_of_3 {
-		width: 100%; 
-	}
-	.span_2_of_3 {
-		width: 100%; 
-	}
-	.span_1_of_3 {
-		width: 100%;
-	}
-}
-
 /*Robert's CSS Styling*/
 .lessons-img{
-  width=160px; 
+  width:160px; 
   height:160px;
+  padding-left:4em;
 }
 .education{
 text-align: center;
