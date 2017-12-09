@@ -82,15 +82,18 @@ h3 {
 }
 
 .images {
+  overflow: none;
+  text-align: center;
   display: grid;
   grid-template-columns: 33% 33% 33%;
-  justify-content: space-around;
-  justify-content: flex-end;
+  width: 100%;
+  padding-left: 55px;
   margin: 10px;
 }
 
 .pitch {
   text-align: center;
+  margin-top: 20px;
 }
 
 p {
@@ -182,8 +185,9 @@ i {
   height:160px;
 }
 .education{
-  align-items: center;
+text-align: center;
 }
+
 body {
   font-family: "Lucida Sans Unicode", "Lucida Grande", "Segoe Ui";
 }
