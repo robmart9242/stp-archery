@@ -98,11 +98,18 @@ h3 {
 
 p {
   margin: 10px;
-  text-align: justify;
+  text-align: center;
   justify-content: center;
   font-family: "source sans pro", sans-serif;
 }
 
+.about-padding {
+ padding-top:10px;
+ padding-bottom:10px;
+ padding-left:50px;
+ padding-right:50px;
+ text-align:center;
+}
 
 .upcoming-events {
   text-align: center;
@@ -125,6 +132,17 @@ p {
   
 .events-container {
   padding-top: 20px
+}
+
+}
+
+/* Lauren's about page styling */
+p.about-padding {
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:50px;
+  padding-right:50px;
+  text-align: center;
 }
 
 /* robert changed the background color of footer to match header */
