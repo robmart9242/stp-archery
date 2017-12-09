@@ -20,9 +20,6 @@ body {
   background-image: url(../images/brown-background.jpg);
   background-size: cover;
   font-family: Nobile, sans-serif;
-  
-  
-
 }
  
 .content-wrapper {
@@ -156,6 +153,12 @@ footer {
 i { 
   margin: 5px;
   color: #7e7ee8;
+}
+
+/* steve added copyright */
+
+.copyright {
+  text-align: center;
 }
 
 
