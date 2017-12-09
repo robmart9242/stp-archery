@@ -52,23 +52,6 @@ ul {
   text-decoration: none;
 }
 
-/* steven styles for about page article element */
-.about {
-  padding: 10px;
-}
-
-.hours p, .headline {
-  text-align: center;
-  
-}
-
-.headline {
-  text-decoration: underline;
-  color: whitesmoke;
-}
-
-
-/* end stylings for about page */
 
 li a {
   border-style: solid;
