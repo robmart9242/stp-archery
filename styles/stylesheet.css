@@ -141,14 +141,13 @@ p.Register{
 
 
 /* Lauren's about page styling */
-p.about-padding {
-  padding-top:10px;
-  padding-bottom:10px;
-  padding-left:50px;
-  padding-right:50px;
-  text-align: center;
+.about-padding {
+ padding-top:10px;
+ padding-bottom:10px;
+ padding-left:50px;
+ padding-right:50px;
+ text-align:center;
 }
-
 /* robert changed the background color of footer to match header */
 footer {
   background-color: white;
@@ -246,4 +245,9 @@ body {
 
 .block3{
   clear: both;
+}
+
+/*Lauren's styling added on 12/10/17 */
+.img-size {
+  width:70%;
 }
