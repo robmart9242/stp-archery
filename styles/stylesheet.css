@@ -167,6 +167,22 @@ i {
   text-align: center;
 }
 
+@media screen and (max-width: 1266px) {
+	.content-wrapper {
+		width: 100%; 
+	}
+    	body {
+    		width: 100%;
+    	}
+    
+    	header {
+		width: 100%; 
+	}
+	img {
+		width: auto;
+	}
+}
+
 
 /*Robert's CSS Styling*/
 .lessons-img{
@@ -213,19 +229,6 @@ body {
   
 }
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
-
-@media only screen and (max-width: 480px) {
-	.span_3_of_3 {
-		width: 100%; 
-	}
-	.span_2_of_3 {
-		width: 100%; 
-	}
-	.span_1_of_3 {
-		width: 100%;
-	}
-}
 /*.css for Instructor page*/
 .content-block{
   height: 15rem;
