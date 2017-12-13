@@ -167,21 +167,6 @@ i {
   text-align: center;
 }
 
-@media screen and (max-width: 1266px) {
-	.content-wrapper {
-		width: 100%; 
-	}
-    	body {
-    		width: 100%;
-    	}
-    
-    	header {
-		width: 100%; 
-	}
-	img {
-		width: auto;
-	}
-}
 
 
 /*Robert's CSS Styling*/
@@ -202,6 +187,7 @@ body {
 
 /* following styles are for lessons page */
 
+/*
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto;
@@ -210,8 +196,16 @@ body {
   border: 1px black;
   
 }
+*/
 
-
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  background-color: #c4c2c1;
+  padding: 1em 3em 1em 3em;
+  border: 1px black;
+  
+}
 .grid-container2 {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -254,3 +248,82 @@ body {
 .img-size {
   width:70%;
 }
+
+@media screen and (max-width: 1266px) {
+	.content-wrapper {
+		width: 100%; 
+	}
+    	body {
+    		width: 100%;
+    	}
+    
+    	header {
+		width: 100%; 
+	}
+	img {
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 959px) {
+   .content-wrapper {
+       width: 100%;
+   }
+       body {
+           width: 100%;
+       }
+   
+      header {
+       width: 100%;
+   }
+   img {
+       width: auto;
+   }
+ .images {
+   grid-template-columns: 100%;
+ }
+ .image-1, .image-2, .image-3 {
+   padding-bottom: 10px;
+ }
+ ul {
+   grid-template-columns: 33% 33% 33%;
+ }
+}
+@media screen and (max-width: 640px) {
+	.content-wrapper {
+		width: 100%; 
+	}
+    	body {
+    		width: 100%;
+    	}
+    
+    	header {
+		width: 100%; 
+	}
+	img {
+		width: auto;
+	}
+  ul { 
+    grid-template-columns: 50% 50%;
+  }
+}
+@media screen and (max-width: 480px) {
+	.content-wrapper {
+		width: 100%; 
+	}
+    	body {
+    		width: 100%;
+    	}
+    
+    	header {
+		width: 100%; 
+	}
+	img {
+		width: auto;
+	}
+  ul { 
+    grid-template-columns: 100%;
+  }
+}
+
+
